@@ -4,6 +4,10 @@ A Stash plugin that finds recently released scenes from your performers on Stash
 
 <!-- screenshots -->
 
+## Credits
+
+Inspired by [SceneHub](https://discourse.stashapp.cc/t/scenehub/123) on the Stash community forums, which provided the foundation for the UI layout and the idea of a dedicated scene discovery page. This plugin reimagines it around StashDB — querying new releases directly from StashDB, filtering to only performers in your own library, and adding features like performer search, filter pills, and a favorites-only toggle.
+
 ## Requirements
 
 - [Stash](https://stashapp.cc) v0.27+
