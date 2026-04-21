@@ -2,7 +2,9 @@
 
 A Stash plugin that finds recently released scenes from your performers on StashDB. Opens as a dedicated page showing a feed of new scenes you don't own yet, filtered to performers in your library.
 
-<!-- screenshots -->
+![Nav Button](screenshot-nav-button.png)
+![Discovery Page](screenshot-discovery-page.png)
+![Filter Pills](screenshot-filter-pills.png)
 
 ## Credits
 
