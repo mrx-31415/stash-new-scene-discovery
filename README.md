@@ -2,10 +2,6 @@
 
 A Stash plugin that finds recently released scenes from your performers on StashDB. Opens as a dedicated page showing a feed of new scenes you don't own yet, filtered to performers in your library.
 
-![Nav Button](screenshot-nav-button.png)
-![Discovery Page](screenshot-discovery-page.png)
-![Filter Pills](screenshot-filter-pills.png)
-
 ## Credits
 
 Inspired by [SceneHub](https://discourse.stashapp.cc/t/scenehub/123) on the Stash community forums, which provided the foundation for the UI layout and the idea of a dedicated scene discovery page. This plugin reimagines it around StashDB — querying new releases directly from StashDB, filtering to only performers in your own library, and adding features like performer search, filter pills, and a favorites-only toggle.
@@ -31,11 +27,20 @@ Inspired by [SceneHub](https://discourse.stashapp.cc/t/scenehub/123) on the Stas
 
 ## Usage
 
-Click **🔥 New Releases** in the nav bar — the page opens in a new tab showing a grid of recently released scenes from your performers that you don't already have in your library.
+After enabling the plugin a **🔥 New Releases** button appears in the Stash navigation bar alongside the standard nav items.
+
+![Nav Button](screenshot-nav-button.png)
+
+Click it to open the discovery page in a new tab. It shows a grid of recently released scenes from your performers that you don't already have in your library.
+
+![Discovery Page](screenshot-discovery-page.png)
 
 - **Search** performers in the feed using the search bar
-- **Filter pills** let you narrow the feed to specific performers
-- **Favorites toggle** (♥) filters to only scenes featuring performers you have marked as a favorite in Stash
+- **Filter pills** let you narrow the feed to a specific performer — click a pill to show only their scenes
+
+![Filter Pills](screenshot-filter-pills.png)
+
+- **Favorites toggle** (♥) filters to only scenes featuring performers you have marked as a favourite in Stash
 - **Refresh** forces a fresh fetch from StashDB, bypassing the cache
 - **Copy ID** (appears on hover) copies the StashDB scene ID to your clipboard for easy importing
 
